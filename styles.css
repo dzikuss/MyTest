@@ -1,0 +1,136 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color:black; 
+    opacity: 0.9;
+    text-align: center;
+  
+}
+a{
+    color: seashell;
+}
+
+div.headers{    
+    height: 69px;
+    display: flex;
+    justify-content: flex-end;    
+    align-items: center;
+    border-bottom: 1px solid seashell;    
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    top:0;
+     
+  }
+.liis{
+    margin-right: 40px;
+}
+
+.headers img{ 
+    padding-top:10px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+       
+}
+.headers li:hover{
+    color:rgb(0, 255, 85);
+    cursor: pointer;
+}
+.headers li{ 
+    margin-right: 10px;
+    text-decoration: underline;
+    display: inline-block;
+    padding-right: 10px;
+    
+}
+.second_div{
+    margin: 0px auto;
+    display: flex;
+    height: 700px;
+    width: 1200px;    
+    
+    justify-content: center;
+    align-items: center;  
+    background-image: url('./images/img-mission-background.jpg');
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.middle{
+    width: 100%; 
+    color: white;
+    background-color: black;
+
+    
+}
+.content{     
+    width: 1000px;
+    margin: 20 auto;
+    display: inline-block;
+}
+.pictures3{
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 50px;
+}
+.pictures3 img, .pictures2 img{ 
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.pictures2{
+    display: flex;
+    justify-content:center;
+   
+}
+.pictures2 img{ 
+    margin: 0 50px;
+}
+.addresses{
+    margin: 0 auto;
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    
+    
+    justify-content: center;
+    align-items: center;  
+    background-image: url('./images/img-locations-background.jpg');
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0px;
+}
+.boxes{
+    width: 300px;
+    background-color: black;
+    margin: 20px 15px;
+}
+.addresses h1{ 
+    position: absolute;
+    top: 10px;
+
+
+}
+#specialBox{
+    border: 1px solid rgb(189, 74, 74); 
+    opacity: 0.5;
+}
+.bottom{
+    height: 200px;
+    margin-bottom: 0px;
+}
+.copyright{
+    margin-top:0px;
+    text-align: left;
+    margin-left: 20;
+}
